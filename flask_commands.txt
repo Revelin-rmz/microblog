@@ -1,0 +1,21 @@
+------Some Instructions Specific to Git Bash------
+
+Make virtual python environment:        py -m venv venv
+
+Activate virtual environment:           source venv/Scripts/activate
+
+Get flask:                              pip install flask
+
+Refuse autopep8 on a line:              "#nopep" a end of the line
+
+Make a .gitignore:                      touch .gitignore
+
+Remove a directory:                     rm -r filename
+
+Set interpreter if needed:              right click venv/Scripts/python.exe -> Copy relative path -> Ctrl+Shift+P -> 
+                                        python: select interpreter -> Paste then click plus sign
+
+Set flask environment variable:         export FLASK_APP=microblog.py (everytime you open a terminal)
+                                        alternative: pip install python-dotenv -> locate .flaskenv -> FLASK_APP=microblog.py                  
+
+Run flask app:                          flask run

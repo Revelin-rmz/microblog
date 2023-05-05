@@ -26,3 +26,9 @@ git add .
 git commit -m "message" -m "long message"
 git push -u origin main
 git commit -a -m "message" (to stage and commit all in one)
+
+
+------VSCode settings------
+
+Generate .vscode:           Ctrl + , -> interpreter -> set to venv
+settings.json:              "python.terminal.activateEnvironment": true (activate the venv interpreter automatically)
